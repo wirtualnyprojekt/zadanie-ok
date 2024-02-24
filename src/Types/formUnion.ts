@@ -1,0 +1,1 @@
+export type ValidateFormMessage = "Podanie imienia i nazwiska jest wymagane" | "Podanie daty urodzenia jest wymagane" | "Email jest wymagany" | "Podałeś niepoprawny adres email" | "Nie wybrałeś odpowiedniego działu" | "Musisz zaakceptować regulamin" | null;

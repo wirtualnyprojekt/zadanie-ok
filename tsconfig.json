@@ -1,0 +1,16 @@
+{
+    "include": [
+        "./src/*"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        "module": "CommonJS",
+        "jsx": "react",
+        "target": "es6"
+    }
+}
