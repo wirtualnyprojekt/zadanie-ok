@@ -10,7 +10,7 @@ export const Form = () => {
   return (
     <form className="mt-5" >
       {validateError && <div className="alert alert-danger" role="alert">{validateError}</div>}
-      {isSendSuccess && <div className="alert alert-success" role="alert">Twoja wiadomość została poprawnie wysłana!</div>}
+      {isSendSuccess && <div className="alert alert-success" role="alert">Dane zostały poprawnie zapisane</div>}
       <FormInput htmlFor="user-name" type="name" placeHolder="Imię i nazwisko" label="Imię i nazwisko" id="user-name" name="fullName" updateFormState={updateFormState}  />
       <FormInput htmlFor="user-birth-date" type="text" placeHolder="DD/MM/YYYY" label="Data urodzenia" id="user-birth-date" name="birthDate" updateFormState={updateFormState} />
       <FormInput htmlFor="user-email" type="email" placeHolder="user@example.com" label="Email" id="user-email" name="email" updateFormState={updateFormState} />
