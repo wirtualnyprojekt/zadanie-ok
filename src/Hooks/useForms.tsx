@@ -16,7 +16,6 @@ const useForms = () => {
     });
   
     const validateFormField = (form: FormDataPost) => {
-      console.log(form)
       if(!form.fullName) { 
         return "Podanie imienia i nazwiska jest wymagane"
       }
@@ -44,7 +43,6 @@ const useForms = () => {
       } else {
         try {
             await postForm(form);
-            console.log(form)
             setValidateError(null);
             setIsSendSuccesss(true);
         } 
